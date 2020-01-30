@@ -1,0 +1,29 @@
+[
+    {
+      "hotelID":1,
+      "dateCheckIn": "20-02-2019",
+      "dateCheckOut": "28-02-2019",
+      "childNum": 5,
+      "adultsNum": 2,
+      "roomsNum": 3,
+      "info": "oooooooo"
+    },
+    {
+      "hotelID":2,
+      "dateCheckIn": "20-03-2019",
+      "dateCheckOut": "28-04-2019",
+      "childNum": 5,
+      "adultsNum": 2,
+      "roomsNum": 3,
+      "info": "eeeeeeeee "
+    },
+    {
+      "hotelID":3,
+      "dateCheckIn": "20-06-2019",
+      "dateCheckOut": "28-06-2019",
+      "childNum": 5,
+      "adultsNum": 2,
+      "roomsNum": 3,
+      "info": "qqqqqqqqqqqq"
+    }
+  ]

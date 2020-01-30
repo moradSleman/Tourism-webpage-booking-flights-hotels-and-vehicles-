@@ -1,0 +1,194 @@
+[
+{
+"fullName":"moradSleman",
+"Birth":"17-08-1994",
+"Email":"Admin",
+"password":"Admin",
+"Gender":"M",
+"phoneNumber":"0509222774",
+"ContactInfo":{"address":"12345" , "city":"nazareth" , "country":"israel" , "postCode":"1650412" } ,
+"flights":[
+{
+  "from":"istanbull",
+  "to":"antakya" ,
+  "departureDate":"19-02-2018",
+  "returnDate":"25-03-2018",
+  "numAdults": 2 ,
+  "numChilds": 2 ,
+  "flightType":"return"} ,
+{
+  "from":"france",
+  "to":"spain" ,
+  "departureDate": "12-03-2018",
+  "returnDate": "25-04-2018",
+  "numAdults": 4 ,
+  "numChilds": 5 ,
+  "flightType":"return"
+ }
+] ,
+"cars" : [
+{
+"fromDateTime":"12-02-2016" ,
+"toDateTime":"20-02-2016",
+"country":"israel",
+"city":"nazareth",
+"location":"1920",
+"between25And70":false
+},
+{
+"fromDateTime":"12-03-2016" ,
+"toDateTime":"20-04-2016",
+"country":"turkey",
+"city":"istanbul",
+"location":"9999",
+"between25And70":true
+}
+],
+"hotels":[
+{
+"dateCheckIn":"20-02-2019",
+"dateCheckOut":"28-02-2019",
+"childNum":5,
+"adultsNum":2,
+"roomsNum":3,
+"info":"emperial"
+},
+{
+"dateCheckIn":"20-03-2019",
+"dateCheckOut":"28-04-2019",
+"childNum":5,
+"adultsNum":2,
+"roomsNum":3,
+"info":"dolphon "
+}
+]
+} ,
+{
+"fullName":"marwanQaadan",
+"Birth":"19-09-1994",
+"Email":"marwan",
+"password":"keadan",
+"Gender":"M",
+"phoneNumber":"0529871774",
+"ContactInfo":{"address":"0493jg" , "city":"baqa" , "country":"israel" , "postCode":"4356245" } ,
+"flights": [
+{
+  "from":"france",
+  "to":"spain" ,
+  "departureDate": "12-03-2018",
+  "returnDate": "25-04-2018",
+  "numAdults": 4 ,
+  "numChilds": 5 ,
+  "flightType":"return"
+ },
+ {
+  "from":"england",
+  "to":"italy" ,
+  "departureDate": "12-05-2018",
+  "numAdults": 4 ,
+  "numChilds": 5 ,
+  "flightType":"oneWay"
+ }
+] ,
+"cars": [
+{
+"fromDateTime":"12-03-2016" ,
+"toDateTime":"20-04-2016",
+"country":"turkey",
+"city":"istanbul",
+"location":"9999",
+"between25And70":true
+},
+{
+"fromDateTime":"12-06-2016" ,
+"toDateTime":"20-06-2016",
+"country":"france",
+"city":"paris",
+"location":"20349",
+"between25And70":false
+}
+],
+"hotels":[
+{
+"dateCheckIn":"20-03-2019",
+"dateCheckOut":"28-04-2019",
+"childNum":5,
+"adultsNum":2,
+"roomsNum":3,
+"info":"dolphin "
+},
+{
+"dateCheckIn":"20-06-2019",
+"dateCheckOut":"28-06-2019",
+"childNum":5,
+"adultsNum":2,
+"roomsNum":3,
+"info":"titanic"
+}
+]
+} ,
+{
+"fullName":"moradsleman",
+"Birth":"12-04-1998",
+"Email":"morad",
+"password":"sleman",
+"Gender":"M",
+"phoneNumber":"050394774",
+"ContactInfo":{"address":"123vd" , "city":"nazareth" , "country":"israel" , "postCode":"1650412" } ,
+"flights": [
+{
+  "from":"istanbull",
+  "to":"antakya" ,
+  "departureDate":"19-02-2018",
+  "returnDate":"25-03-2018",
+  "numAdults": 2 ,
+  "numChilds": 2 ,
+  "flightType":"return"} ,
+{
+  "from":"france",
+  "to":"spain" ,
+  "departureDate": "12-03-2018",
+  "returnDate": "25-04-2018",
+  "numAdults": 4 ,
+  "numChilds": 5 ,
+  "flightType":"return"
+ }
+] ,
+"cars": [
+{
+"fromDateTime":"12-02-2016" ,
+"toDateTime":"20-02-2016",
+"country":"israel",
+"city":"nazareth",
+"location":"1920",
+"between25And70":false
+},
+{
+"fromDateTime":"12-03-2016" ,
+"toDateTime":"20-04-2016",
+"country":"turkey",
+"city":"istanbul",
+"location":"9999",
+"between25And70":true
+}
+],
+"hotels":[
+{
+"dateCheckIn":"20-02-2019",
+"dateCheckOut":"28-02-2019",
+"childNum":5,
+"adultsNum":2,
+"roomsNum":3,
+"info":"emperial"
+},
+{
+"dateCheckIn":"20-03-2019",
+"dateCheckOut":"28-04-2019",
+"childNum":5,
+"adultsNum":2,
+"roomsNum":3,
+"info":"dolphon "
+}
+]
+}
+]

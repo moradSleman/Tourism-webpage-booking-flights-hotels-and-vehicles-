@@ -1,0 +1,35 @@
+[
+{
+  "flightID":1,
+  "from":"istanbull",
+  "to":"antakya" ,
+  "departureDate": "02-05-2018",
+  "secondFlight" : null,
+  "returnDate":"03-07-2018",
+  "numAdults": 2 ,
+  "numChilds": 2 ,
+  "flightType":"return"
+ },
+  {
+    "flightID":2,
+    "from": "france",
+    "to": "spain",
+    "departureDate": "03-12-2018",
+    "secondFlight": null,
+    "returnDate": "25-04-2019",
+    "numAdults": 4,
+    "numChilds": 5,
+    "flightType": "return"
+  },
+  {
+    "flightID":3,
+    "from": "england",
+    "to": "italy",
+    "departureDate": "05-12-2018",
+    "secondFlight": null,
+    "returnDate": "05-02-2019",
+    "numAdults": 4,
+    "numChilds": 5,
+    "flightType": "oneWay"
+  }
+]

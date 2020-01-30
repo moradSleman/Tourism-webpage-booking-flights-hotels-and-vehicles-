@@ -1,0 +1,44 @@
+[
+  {
+    "id":1,
+    "text": "rrrrrrrrrrrrrrrrrrrrrrrrrr",
+    "img": "preview.jpg",
+    "rateNum": 3,
+      "cars":{
+    "fromDateTime":"12-02-2016" ,
+    "toDateTime":"20-02-2016",
+    "country":"israel",
+    "city":"nazareth",
+    "location":"1920",
+    "between25And70":false
+    }
+  },
+  {
+    "text": "aaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "img": "preview.jpg",
+    "rateNum": 5 ,
+    "hotels" : {
+      "from":"istanbull",
+      "to":"antakya" ,
+      "departureDate":"19-02-2018",
+      "returnDate":"25-03-2018",
+      "numAdults": 2 ,
+      "numChilds": 2 ,
+      "flightType":"return"
+     }
+  },
+  {
+    "text": "wwwwwwwwwwwwwwwwwwwwwwwwwwwwww",
+    "img": "preview.jpg",
+    "rateNum": 2 ,
+    "hotels" : {
+      "from":"istanbull",
+      "to":"antakya" ,
+      "departureDate":"19-02-2018",
+      "returnDate":"25-03-2018",
+      "numAdults": 2 ,
+      "numChilds": 2 ,
+      "flightType":"return"
+     }
+  }
+]

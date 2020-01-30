@@ -1,0 +1,46 @@
+[
+    {
+      
+      "hotels" : {
+        "hotelID":1,
+      "dateCheckIn": "20-02-2019",
+      "dateCheckOut": "28-02-2019",
+      "childNum": 5,
+      "adultsNum": 2,
+      "roomsNum": 3,
+      "info": "oooooooo"
+    } ,
+    "flights" : {
+      "flightID":1,
+      "from":"istanbull",
+      "to":"antakya" ,
+      "departureDate":"19-02-2018",
+      "returnDate":"25-03-2018",
+      "numAdults": 2 ,
+      "numChilds": 2 ,
+      "flightType":"return"
+     }
+  }
+    {
+      "hotels" : {
+        "hotelID":2,
+      "dateCheckIn": "20-03-2019",
+      "dateCheckOut": "28-04-2019",
+      "childNum": 5,
+      "adultsNum": 2,
+      "roomsNum": 3,
+      "info": "eeeeeeeee "
+    } ,
+    "flights" :{
+      "flightID":2,
+     "from":"france",
+     "to":"spain" ,
+     "departureDate": "12-03-2018",
+     "returnDate": "25-04-2018",
+     "numAdults": 4 ,
+     "numChilds": 5 ,
+     "flightType":"return"
+   }
+    }
+
+  ]

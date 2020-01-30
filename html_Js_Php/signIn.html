@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <img src='img1.jpg' style='position:fixed;top:0px;left:0px;width:100%;height:100%;z-index:-1;'>
+    <div class="container" style="width:400px; margin:0 auto;">
+    <form id="myForm" onsubmit="return validateForm()">
+      <div  style='margin-top:30px'>
+        <label style="color:white">full name : </label>
+        <input type="text" class="form-control" id="fullname" placeholder="enter full name">
+        <label style="color:red;" id="error1"></label>
+        </div>
+        <div style='margin-top:30px'>
+          <label style="color:white">birthdate :</label>
+            <input type="date" class="form-control" id="birth" placeholder="enter birthdate">
+          <label style="color:red;" id="error2"></label>
+          </div>
+          <div  style='margin-top:30px'>
+            <label style="color:white">email : </label>
+            <input type="email" class="form-control" id="email" placeholder="enter email">
+            <label style="color:red;" id="error3"></label>
+            </div>
+            <div style='margin-top:30px'>
+              <label style="color:white">password :</label>
+              <input type="password" class="form-control" id="password" placeholder="enter password">
+              <label style="color:red;" id="error4"></label>
+              </div>
+              <div style='margin-top:30px'>
+                <label style="color:white">phone number :</label>
+                <input type="phone" class="form-control" id="phone" placeholder="enter phone number">
+                <label style="color:red;" id="error5"></label>
+                </div>
+                <a href="login.php"><button type="submit" class="btn btn-success btn-lg" style="margin-top:18px; margin-left:35%">
+                        sign in</button></a>
+    </form>
+
+    <script type="text/javascript">
+    function validateForm() {
+    var x = document.forms["myForm"]["fullname"].value;
+    var y = document.forms["myForm"]["birth"].value;
+    var z = document.forms["myForm"]["email"].value;
+    var a = document.forms["myForm"]["password"].value;
+    var b = document.forms["myForm"]["phone"].value;
+
+    if (x == null || x == "") {
+    alert("Name must be filled out");
+    document.getElementById("error1").innerHTML="please enter name";
+    return false;
+    }
+    else
+    if(y== null || y== ""){
+     alert("birthdate must be filled out");
+     document.getElementById("error2").innerHTML="please enter birthdate";
+     return false;
+   }
+   else
+   if(z== null || z== ""){
+    alert("email must be filled out");
+    document.getElementById("error3").innerHTML="please enter email";
+    return false;
+  }else
+   if(a== null || a== ""){
+    alert("password must be filled out");
+    document.getElementById("error4").innerHTML="please enter birthdate";
+    return false;
+  }else
+  if(a.length != 8){
+   alert("password must be only 8 letters ot numberes!");
+   document.getElementById("error5").innerHTML="please enter 8 letters or numbers";
+   return false;
+ }else
+  if(b== null || b== ""){
+   alert("phone must be filled out");
+   document.getElementById("error5").innerHTML="please enter phone";
+   return false;
+ }
+ else {
+   alert("you have registered/sign in succesfully!");
+ }
+}
+</script>
+
+    </div>
+  </body>
+</html>

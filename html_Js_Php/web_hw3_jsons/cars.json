@@ -1,0 +1,29 @@
+[
+{
+  "carID":1,
+"fromDateTime":"12-02-2016 12:30:00" ,
+"toDateTime":"20-02-2016 22:30:00",
+"country":"israel",
+"city":"nazareth",
+"location":"1920",
+"between25And70":false
+},
+{
+  "carID":2,
+"fromDateTime":"12-03-2016 4:50:00" ,
+"toDateTime":"20-04-2016 5:30:00",
+"country":"turkey",
+"city":"istanbul",
+"location":"9999",
+"between25And70":true
+},
+{
+  "carID":3,
+"fromDateTime":"12-06-2016 5:40:00" ,
+"toDateTime":"20-06-2016 10:30:00",
+"country":"france",
+"city":"paris",
+"location":"20349",
+"between25And70":false
+}
+]
